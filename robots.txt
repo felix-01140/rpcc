@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://revivalpalace.org/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 10 
