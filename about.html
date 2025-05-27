@@ -99,6 +99,102 @@
 			#google_translate_element select {
 				text-transform: capitalize !important;
 			}
+
+			/* Core Values Table Styling */
+			.values-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1em 0;
+			}
+			
+			.values-table th {
+				background: #000;
+				color: #fff;
+				padding: 1em;
+				text-align: center;
+				font-weight: 600;
+				border: 1px solid #333;
+			}
+			
+			.values-table td {
+				padding: 1em;
+				text-align: center;
+				border: 1px solid #333;
+				background: rgba(0, 0, 0, 0.05);
+				vertical-align: top;
+				line-height: 1.4;
+			}
+			
+			.values-table tr:hover td {
+				background: rgba(0, 0, 0, 0.1);
+			}
+			
+			/* Mission Table Styling */
+			.mission-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1em 0;
+			}
+			
+			.mission-table td {
+				transition: background-color 0.3s ease;
+			}
+			
+			.mission-table td:hover {
+				background: rgba(0, 0, 0, 0.1);
+			}
+			
+			.mission-table h3 {
+				margin: 0.5em 0;
+				color: #000;
+				font-size: 1.2em;
+			}
+			
+			.mission-table p {
+				margin: 0;
+				font-size: 0.9em;
+				line-height: 1.4;
+			}
+			
+			.mission-table i {
+				color: #000;
+				opacity: 0.8;
+			}
+			
+			/* Vision Table Styling */
+			.vision-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1em 0;
+			}
+			
+			.vision-table td {
+				transition: background-color 0.3s ease;
+				background: rgba(0, 0, 0, 0.02);
+			}
+			
+			.vision-table td:hover {
+				background: rgba(0, 0, 0, 0.1);
+			}
+			
+			.vision-table h3 {
+				margin: 0.5em 0;
+				color: #000;
+				font-size: 1.3em;
+				font-weight: 600;
+			}
+			
+			.vision-table p {
+				margin: 0;
+				font-size: 1em;
+				line-height: 1.4;
+				opacity: 0.9;
+			}
+			
+			.vision-table i {
+				color: #000;
+				opacity: 0.8;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -145,48 +241,103 @@
 								<p>Revival Palace Community Church was established in 2010 in Kigali, Rwanda, with a vision to create a vibrant community of believers dedicated to transforming lives through the power of God's love. What began as a small gathering of 20 people has grown into a thriving church community serving thousands of believers across Kigali.</p>
 
 								<h2>Our Vision</h2>
-								<p>To be a beacon of hope and transformation in Kigali, raising disciples who impact their communities and nation through the love of Christ. We envision a church where every member is empowered to live out their God-given purpose and contribute to the building of God's kingdom.</p>
+								<div style="text-align: center; margin: 2em 0; padding: 2em; border: 2px solid #000; background: rgba(0, 0, 0, 0.05);">
+									<h1 style="font-size: 2.5em; margin-bottom: 0.5em; color: #000;">A community-transforming church, glorifying Christ.</h1>
+								</div>
+								
+								<div class="table-wrapper">
+									<table class="vision-table">
+										<tr>
+											<td style="width: 33.33%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-church" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Community-Transforming</h3>
+												<p>Catalyzing positive change in our society</p>
+											</td>
+											<td style="width: 33.33%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-heart" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Christ-Centered</h3>
+												<p>Keeping Jesus at the heart of all we do</p>
+											</td>
+											<td style="width: 33.33%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-crown" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Glory to God</h3>
+												<p>Living to honor and glorify Christ</p>
+											</td>
+										</tr>
+									</table>
+								</div>
 
 								<h2>Our Mission</h2>
-								<p>To spread the gospel of Jesus Christ, make disciples, and serve our community through:</p>
-								<ul>
-									<li>Dynamic worship and prayer</li>
-									<li>Biblical teaching and discipleship</li>
-									<li>Community outreach and social impact</li>
-									<li>Youth and family ministry</li>
-									<li>Leadership development</li>
-								</ul>
+								<p>We passionately spread the Gospel through evangelism, establish vibrant communities through church planting, nurture believers through discipleship, serve with compassion through charity, and enrich lives through education.</p>
+								
+								<div class="table-wrapper" style="margin-top: 2em;">
+									<table class="mission-table">
+										<tr>
+											<td style="width: 20%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-cross" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Evangelism</h3>
+												<p>Spreading the Gospel message with passion and purpose</p>
+											</td>
+											<td style="width: 20%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-church" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Church Planting</h3>
+												<p>Establishing vibrant communities of faith</p>
+											</td>
+											<td style="width: 20%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-users" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Discipleship</h3>
+												<p>Nurturing believers in their spiritual journey</p>
+											</td>
+											<td style="width: 20%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-hands-helping" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Charity</h3>
+												<p>Serving our community with compassion</p>
+											</td>
+											<td style="width: 20%; text-align: center; padding: 1.5em; border: 1px solid #333;">
+												<i class="fas fa-graduation-cap" style="font-size: 2em; margin-bottom: 0.5em;"></i>
+												<h3>Education</h3>
+												<p>Enriching lives through learning</p>
+											</td>
+										</tr>
+									</table>
+								</div>
 
 								<h2>Our Leadership</h2>
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<h3>Senior Pastor</h3>
-										<p><strong>Pastor Emmanuel Niyonzima</strong><br>
-										With over 15 years of ministry experience, Pastor Emmanuel leads our church with a passion for teaching God's word and empowering believers to reach their full potential in Christ.</p>
+										<p><strong>Bishop. Dr. James MULISA </strong><br>
+										With over 15 years of ministry experience, Bishop James leads our church with a passion for teaching God's word and empowering believers to reach their full potential in Christ.</p>
 									</div>
 									<div class="col-6 col-12-small">
 										<h3>Associate Pastor</h3>
-										<p><strong>Pastor Grace Mukamana</strong><br>
-										Pastor Grace oversees our women's ministry and community outreach programs, bringing her heart for service and discipleship to our church family.</p>
+										<p><strong>Pastor Robert BUGABO</strong><br>
+										Pastor Robert oversees our youth ministry and community outreach programs, bringing his heart for service and discipleship to our church family.</p>
 									</div>
 								</div>
 
 								<h2>Our Values</h2>
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<ul>
-											<li>Biblical Authority</li>
-											<li>Prayer & Worship</li>
-											<li>Community & Fellowship</li>
-										</ul>
-									</div>
-									<div class="col-6 col-12-small">
-										<ul>
-											<li>Discipleship & Growth</li>
-											<li>Service & Outreach</li>
-											<li>Excellence & Integrity</li>
-										</ul>
-									</div>
+								<div class="table-wrapper">
+									<table class="values-table">
+										<thead>
+											<tr>
+												<th>Christ-like Love</th>
+												<th>Integrity</th>
+												<th>Teamwork</th>
+												<th>Responsibility & Accountability</th>
+												<th>Prayerful Life</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Embrace compassion and selflessness, reflecting Christ's unconditional love.</td>
+												<td>Uphold honesty and reliability in all actions, maintaining high ethical standards.</td>
+												<td>Foster collaboration and mutual respect to achieve common goals.</td>
+												<td>Take ownership of decisions and actions, being accountable for commitments.</td>
+												<td>Cultivate a deep spiritual connection through regular prayer, seeking guidance and wisdom.</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 
 								<h2>Join Our Community</h2>
